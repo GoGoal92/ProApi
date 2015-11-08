@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/reg_text" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="69dp"
+            android:background="@drawable/edtextback"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edusername"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textSize="20sp" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="69dp"
+            android:background="@drawable/edtextback"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edpass"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="20sp" />
+
+            <requestFocus />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="69dp"
+            android:background="@drawable/edtextback"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edretypepass"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Retype Password"
+                android:inputType="textPassword"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="69dp"
+            android:background="@drawable/edtextback"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edemail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Your Email"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/register_btn_xml"
+            android:text="Sign Up" />
+
+        <TextView
+            android:id="@+id/reg_lod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:text="TextView"
+            android:textColor="#FF0000"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
